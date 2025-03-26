@@ -1,10 +1,16 @@
 {
   "expo": {
-    "scheme": "acme",
+    "name": "FocusAI",
+    "slug": "focusai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "focusai",
     "plugins": [
       "expo-router"
     ],
-    "name": "FocusAI",
-    "slug": "FocusAI"
+    "experiments": {
+      "tsconfigPaths": true
+    }
   }
 }
